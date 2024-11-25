@@ -1,0 +1,50 @@
+.catalogContainer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+
+
+.catalogGrid {width: 416px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding: 5px;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.catalogItem {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.catalogItem:hover {
+  background: #e0e0e0;
+}
+
+.additionalInfo {
+  background: #f1f1f1;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.additionalInfo h3 {
+  margin-bottom: 1rem;
+}
+
+.additionalInfo ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.additionalInfo li {
+  margin-bottom: 0.5rem;
+}

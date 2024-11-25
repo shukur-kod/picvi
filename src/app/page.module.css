@@ -1,0 +1,64 @@
+.heroSection {
+  background-image: url('https://avatars.mds.yandex.net/i?id=ff75f5af0642ef0424ce64aea641687c5b285c0f-9181286-images-thumbs&n=13');
+  background-size: cover; 
+  background-position: center;
+  height: 100vh;
+  display: flex; 
+  align-items: center; 
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px; 
+
+.leftDivs {
+  justify-content: end;
+  
+display: flex;
+flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.box {
+
+  width: 200px;
+  height: 180px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 8px;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  margin-left: 40px; 
+  height: 100%; 
+}
+
+.largeText {
+  font-size: 36px;
+  color: white;
+  margin: 0; 
+}
+
+.smallText {
+  font-size: 18px; 
+  color: white; 
+  margin: 10px 0; 
+}
+
+.catalogLink {
+  margin-top: 20px; 
+  padding: 10px 20px;
+  background-color: #ffcc00; 
+  color: black;
+  border-radius: 5px; 
+  text-decoration: none;}
+}

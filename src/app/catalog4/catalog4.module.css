@@ -1,0 +1,32 @@
+.catalogContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.headerText {
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 15px;
+}
+
+.documentList {
+    list-style-type: disc; 
+    padding-left: 20px;
+}
+
+.linkText {
+    display: inline-block; 
+    margin-top: 20px; 
+    padding: 10px 15px; 
+    background-color: #0070f3; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+.linkText:hover {
+    background-color: #005bb5;
+}
